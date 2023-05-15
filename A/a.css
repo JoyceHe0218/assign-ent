@@ -1,0 +1,37 @@
+td {
+    max-width: 600px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+    max-width: 100%;
+    border: none;
+}
+
+.apple {
+    width: 180px;
+    height: 180px;
+}
+
+th {
+    align-items: center;
+    border: none;
+
+    border-color: #939b62;
+}
+
+td {
+    text-align: center;
+    background-color: #f6ce71;
+    border-color: #939b62;
+    border-width: 20px;
+    border-top: #939b62;
+    border-left: #939b62;
+}
+
+body {
+    background: #939b62;
+}
