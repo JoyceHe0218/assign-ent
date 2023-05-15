@@ -1,0 +1,61 @@
+h1 {
+    margin: 200px auto 0 auto;
+    font-family: "Saccramento", cursive;
+    color: #ff7b54;
+    font-size: 270%;
+    line-height: 2;
+    max-width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+input {
+   width: 100px;
+   height: 100px;
+   transition: all .2s ease-out;
+}
+
+.APPLE {
+    margin: 0px;
+    padding: 0;
+    background-color: #fbd888;
+    text-align: center;
+}
+
+.apples {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 15px 15px 30px #f3c762,
+    -15px -15px 30px #fbcd63;
+    transition: all .2s ease-out;
+    gap: 30px;
+}
+
+.apples:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 #f9cd66,
+    0 0 0 rgba(255, 255, 255, 0.8),
+    inset 18px 18px 30px #eacd8a,
+    inset -18px -18px 30px #eacd8a;
+}
+
+.img:hover img{
+    width: 58px;
+}
+
+.extension {
+    float: left;
+}
